@@ -1,0 +1,37 @@
+{
+  "name": "judgebot",
+  "version": "1.0.0",
+  "description": "discord bot for judges",
+  "main": "server.js",
+  "engines": {
+    "node": "8.4.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bra1n/judgebot"
+  },
+  "author": "Steffen Baumgart <steffen@baumgart.biz>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bra1n/judgebot/issues"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.3.2",
+    "fuse.js": "^3.2.0",
+    "iconv-lite": "^0.4.23",
+    "lodash": "^4.16.6",
+    "log4js": "^3.0.2",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^5.1.1"
+  }
+}
